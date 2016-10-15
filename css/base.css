@@ -127,4 +127,145 @@ s, i, em {
 
     background-color: #e8e8e7;
 }
+
+.top-nav-right .top-nav-right-fore,
+.top-nav-send {
+    height: 30px;
+    padding: 0 25px 0 10px;
+    position: relative;
+}
+
+.top-nav-right-fore i,
+.top-nav-send i {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    font: 400 12px/15px "consolas";
+    width: 15px;
+    height: 6px;
+    overflow: hidden;
+}
+.top-nav-right-fore i s,
+.top-nav-send i s {
+    position: absolute;
+    left: 0;
+    top: -6px;
+}
+
+.top-nav-right-fore:hover,
+.top-nav-send:hover {
+    background-color: #fff;
+}
+
+.top-nav-right li {
+    float: left;
+    padding: 0 10px;
+}
+
+.top-nav-right-reg {
+    color: #C81623;
+}
+
+.top-nav-right .top-nav-right-line {
+    width: 1px;
+    height: 12px;
+    padding: 0;
+    background-color: #ddd;
+    margin-top: 9px;
+}
+
+.top-nav-right .jd-tel {
+    padding-left: 25px;
+    position: relative;
+}
+
+.tel-icon {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 15px;
+    height: 20px;
+    background: url("../img/jd2015img.png");
+}
+
 /*top-nav end*/
+
+
+/*top-banner start*/
+.top-banner {
+    height: 80px;
+    background: #8b25c6;
+}
+
+.top-banner-box {
+    position: relative;
+}
+
+.top-banner-sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../img/close.png");
+    height: 19px;
+    width: 19px;
+}
+
+.top-banner-sale:hover {
+    background-position: 0 -19px;
+}
+/*top-banner end*/
+
+
+/*top-search start*/
+.top-search {
+
+}
+
+.top-search-logo {
+    width: 362px;
+    height: 60px;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+}
+
+.top-search-logo-a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    background: url("../img/jd-logo.png") no-repeat;
+}
+
+.top-search-logo-dong {
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: url("../img/dong.gif");
+
+}
+
+.top-search-input {
+    width: 538px;
+    height: 61px;
+    float: left;
+    background-color: blue;
+}
+
+.top-search-car {
+    margin: 25px 65px 0 0;
+    width: 138px;
+    height: 34px;
+    float: right;
+    background-color: pink;
+    border: 1px solid #dddddd;
+}
+
+.top-search-more {
+    width: 530px;
+    height: 28px;
+    float: left;
+    background-color: red;
+}
+/*top-search end*/
