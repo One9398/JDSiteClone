@@ -334,16 +334,6 @@ s, i, em {
 
 
 /*footer start*/
-/*
-slogo-icon
-
-pos
-l50%
-w302
-h54
-m-l304
-p20 0
-*/
 .footer-services-slogan {
     padding: 20px 0;
     height: 64px;
@@ -369,5 +359,70 @@ p20 0
 
 .footer-services-slogan .slogan4 {
     margin-left: 304px;
+}
+
+.footer-services-detail .detail-shopping {
+    width: 199px;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer-services-detail .detail-shopping dt,
+.footer-services-area .area-title {
+    height: 36px;
+    font: 400 16px/36px 'microsoft yahei';
+}
+
+.footer-services-detail .detail-shopping dd {
+    height: 20px;
+    font: 12px/20px 'simsum';
+}
+
+.footer-services-detail .detail-shopping:last-child {
+    width: 100px;
+}
+
+.footer-services-area {
+    width: 186px;
+    height: 170px;
+    float: right;
+    background: url("../img/china.png") no-repeat;
+    background-position: left bottom;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding-left: 18px;
+}
+
+.footer-services-area .area-content {
+    margin-top: 18px;
+}
+
+.footer-services-area .area-content p {
+    line-height: 18px;
+}
+
+.footer-services-area .area-content a {
+    float: right;
+    right: 0;
+}
+
+.footer-info {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 20px;
+    text-align: center;
+    padding: 22px 0;
+}
+
+.footer-info a {
+    margin: 0 5px;
+}
+
+.footer-info .copyright {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.footer-info .sites img {
+    margin-right: 10px;
 }
 /*footer end*/
