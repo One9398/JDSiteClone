@@ -124,7 +124,8 @@ s, i, em {
 .top-nav {
     height: 30px;
     line-height: 30px;
-
+    width: 100%;
+    min-width: 1220px;
     background-color: #e8e8e7;
 }
 
