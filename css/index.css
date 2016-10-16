@@ -1,0 +1,59 @@
+.items-nav {
+    height: 44px;
+    border-bottom: 2px solid #b1191a;
+    position: relative;
+    z-index: 1;
+}
+
+.items-category {
+    height: 44px;
+    float: left;
+    background-color: #b1191a;
+    width: 210px;
+}
+
+.items-category-title a {
+    padding: 0 10px;
+    display: block;
+    font: 400 15px/44px "microsoft yahei";
+    color: white;
+}
+
+.items-category .items-category-items {
+    height: 467px;
+    margin-top: 2px;
+    background-color: #cb1623;
+    border-left: 1px solid #b1191a;
+}
+
+.items-main {
+    height: 44px;
+    width: 755px;
+    float: left;
+    background-color: pink;
+
+}
+
+.items-main li {
+    float: left;
+}
+
+.items-main li a {
+     display: block;
+     font: 400 15px/44px "microsoft yahei";
+     padding: 0 20px;
+}
+
+.items-pc {
+    float: right;
+    width: 140px;
+    height: 42px;
+    margin-top: 2px;
+    background: url("../img/computer.jpg") no-repeat;
+}
+
+.items-pc a {
+    display: block;
+    width: 140px;
+    height: 42px;
+}
